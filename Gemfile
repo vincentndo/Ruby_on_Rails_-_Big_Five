@@ -41,6 +41,9 @@ gem "paperclip", "~> 6.0.0"
 # Use Chronic to parse dates
 gem 'chronic'
 
+# Vincent - Use to schedule the job
+gem 'whenever', require: false
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
